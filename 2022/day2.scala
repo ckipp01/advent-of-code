@@ -1,7 +1,5 @@
 package aoc
 
-import scala.io.Source
-
 @main def day2Part1() =
   import day2.*
 
@@ -63,8 +61,7 @@ import scala.io.Source
   println(results)
 
 object day2:
-  private val input = Source.fromResource("2.txt")
-  val lines = input.getLines().toVector
+  val lines = getLines("2.txt")
 
   val loss = 0
   val draw = 3

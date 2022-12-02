@@ -1,6 +1,5 @@
 package aoc
 
-import scala.io.Source
 import scala.annotation.tailrec
 
 @main def day1Part1() =
