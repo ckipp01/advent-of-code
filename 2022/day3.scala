@@ -19,6 +19,9 @@ import scala.collection.View.Unfold
 @main def day3Part2() =
   import day3.*
 
+  // GAHHH looking over at this now and looking at other solutions there are
+  // a couple things I did silly. I should have just used grouped(3) here
+  // and I totally forgot about `intersect` lol and instead made my own...
   val badges = Vector.unfold(lines) { left =>
     val (toCheck, carryOn) = left.splitAt(3)
     val collected = toCheck
