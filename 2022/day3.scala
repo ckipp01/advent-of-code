@@ -1,7 +1,5 @@
 package aoc
 
-import scala.collection.View.Unfold
-
 @main def day3Part1() =
   import day3.*
   val totals =
