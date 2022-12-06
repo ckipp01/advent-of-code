@@ -1,5 +1,6 @@
 //> using scala "3.2.1"
 //> using resourceDir "./resources"
+//> using lib "com.lihaoyi::pprint:0.8.1"
 
 package aoc
 
