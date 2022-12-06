@@ -9,3 +9,6 @@ import scala.io.Source
 def getLines(fileName: String): Vector[String] =
   val input = Source.fromResource(fileName)
   input.getLines().toVector
+
+def iterator(fileName: String): Iterator[Char] =
+  Source.fromResource(fileName).iterator
